@@ -3,8 +3,8 @@ import Wallpaper1Img from '../components/images/wallpaper1.jpg'
 
 const Wallpaper1 = () => {
   return (
-    <div>
-        <img src={Wallpaper1Img} alt="Wallpaper1" />
+    <div className='container'>
+      <img src={Wallpaper1Img} className='image-style' alt="Wallpaper1" />
     </div>
   )
 }

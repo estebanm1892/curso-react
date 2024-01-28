@@ -2,8 +2,8 @@ import React from 'react'
 import EvaImg from '../components/images/eva.jpg'
 const Eva = () => {
   return (
-    <div>
-        <img src={EvaImg} alt="Eva" />
+    <div className='container'>
+        <img src={EvaImg} className='image-style' alt="Eva" />
     </div>
   )
 }

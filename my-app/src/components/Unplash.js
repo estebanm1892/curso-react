@@ -3,8 +3,8 @@ import UnplashImg from '../components/images/unplash.jpg'
 
 const Unplash = () => {
   return (
-    <div>
-        <img src={UnplashImg} alt="Unplash" />
+    <div className='container'>
+        <img src={UnplashImg} className='image-style' alt="Unplash" />
     </div>
   )
 }

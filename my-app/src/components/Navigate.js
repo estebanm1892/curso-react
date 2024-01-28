@@ -7,34 +7,34 @@ import Wallpaper1Img from '../components/images/wallpaper1.jpg'
 
 const Navigate = () => {
     return (
-        <div>
-            <Link to="/Eva">
+        <div className='container mt-3 father'>
+            <Link to="/Eva" className='links'>
                 <figure>
-                    <img src={EvaImg} alt="" />
+                    <img src={EvaImg} alt=""  className='img-size'/>
                     <figcaption>
                         Eva
                     </figcaption>
                 </figure>
             </Link>
-            <Link to="/Totk">
+            <Link to="/Totk" className='links'>
                 <figure>
-                    <img src={TotkImg} alt="" />
+                    <img src={TotkImg} alt="" className='img-size'/>
                     <figcaption>
                         Totk
                     </figcaption>
                 </figure>
             </Link>
-            <Link to="/Unplash">
+            <Link to="/Unplash" className='links'>
                 <figure>
-                    <img src={UnplashImg} alt="" />
+                    <img src={UnplashImg} alt="" className='img-size'/>
                     <figcaption>
                         Unplash
                     </figcaption>
                 </figure>
             </Link>
-            <Link to="/Wallpaper1">
+            <Link to="/Wallpaper1" className='links'>
                 <figure>
-                    <img src={Wallpaper1Img} alt="" />
+                    <img src={Wallpaper1Img} alt="" className='img-size'/>
                     <figcaption>
                         Wallpaper1
                     </figcaption>

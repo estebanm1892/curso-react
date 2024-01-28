@@ -10,6 +10,9 @@ import Navigate from './components/Navigate';
 function App() {
   return (
     <Router>
+      <div className='container'>
+        <h1 className='text-center mt-3 mb-3'>Galeria</h1>
+      </div>
       <Routes>
         <Route path="/Eva" Component={Eva} />
         <Route path="/Totk" Component={Totk} />
