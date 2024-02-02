@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <div className='container'>
-        <h1 className='text-center mt-3 mb-3'>Galeria</h1>
+        <h1 className='text-center mt-3 mb-3 text-white'>Galeria</h1>
       </div>
       <Routes>
         <Route path="/Eva" Component={Eva} />
